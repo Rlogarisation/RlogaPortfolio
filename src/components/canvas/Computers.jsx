@@ -10,8 +10,8 @@ const Computers = ( isMobile ) => {
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor='black'/>
-      <pointLight intensity={1}/>
+      <hemisphereLight intensity={3.15} groundColor='black' />
+      <pointLight intensity={1} />
       <spotLight 
         position={[-20, 50, 10]}
         angle={0.12}
@@ -54,8 +54,8 @@ const ComputersCanvas = () => {
       camera={{ position: [20, 3, 5], fov: 25}}
       gl={{ preserveDrawingBuffer: true }}
     >
-      {/* fallback = {<CanvasLoader />} */}
-      <Suspense> 
+      
+      <Suspense fallback = {<CanvasLoader />}> 
         <OrbitControls 
           enableZoom = {false}
           maxPolarAngle={Math.PI / 2}
@@ -63,7 +63,7 @@ const ComputersCanvas = () => {
         />
         <Computers isMobile={isMobile}/>
       </Suspense>
-      {/* <preload all /> */}
+      <Preload all />
     </Canvas>
   )
 }
