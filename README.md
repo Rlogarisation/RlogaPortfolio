@@ -1,12 +1,14 @@
-# React + Vite
+# Roger's Portfolio by React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Roger's personal website that introduce myself, deployed at https://rlogarisation.github.io/RlogaPortfolio/.
 
 
-For starting the project, 
+### For starting the project, 
+
 ```npm run dev```
+
+### Reference for deploying the project on Github,
+
+https://github.com/ErickKS/vite-deploy
+
+https://medium.com/@badreddine.boudaoud21/create-a-react-app-with-vite-and-deploy-it-on-github-48b82e19f821
