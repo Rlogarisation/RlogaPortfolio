@@ -44,7 +44,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I've been fortunate to thoroughly enjoy every aspect of my professional life, and I continue to find immense satisfaction in the world of IT. My journey has been shaped by a passion for technology and a commitment to personal and professional growth, and I look forward to the exciting opportunities that lie ahead.
+        My name is Roger Luo, a full-stack software engineer based in Sydney. I am currently a software engineer focus on Java backend application at Airbus, I also had years on experience in developing frontend JavaScript applications.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

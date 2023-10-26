@@ -41,7 +41,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Backend Java Developer",
+    icon: backend,
+  },
+  {
+    title: "Frontend JavaScript Developer",
     icon: web,
   },
   {
@@ -49,11 +53,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
+    title: "Database SQL Developer",
     icon: creator,
   },
 ];
@@ -121,10 +121,16 @@ const experiences = [
     iconBg: "#383E56",
     date: "Mar 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed the Identify Friend or Foe (IFF) module independently by picking up the application layer structure of \
+      large-scale Java Mission Planning application with over 2000+ classes within 1 week, composed interface and panel \
+      design using the JGoodies library, designed 20+ real-time validation rules for user inputs, and added binary file \
+      importing/exporting functionality.",
+      "Integrated animated Unity components such as M134 Mini Gun, Hellfire, Countermeasure Flares into H145 VR\
+      project using C# and Unity, enabling customers to customised their preferred configurations in real-time across\
+      PC, VR devices, and iPad controller, indirectly resulted record-breaking 800+ aircraft purchases during the 2023\
+      Paris Airshow.",
+      "Updated corresponded documentation including Requirement Specification(SRS), Design Document(SDD), and\
+      Test Plan(STD) for each Jira ticket.",
     ],
   },
   {
@@ -134,10 +140,15 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Apr 2022 - Mar 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed the animated-poster Generator using JavaScript and GSAP motion library independently, creating\
+      personalized weekly sport highlights for 150+ customers by asynchronously fetching data from a RESTful API,\
+      saved design team 100+ hours from manually creating 500+ custom animated-posters per week.",
+      "Designed an asynchronous multi-thread Shell Script program utilizing Bash and Node.js. Enhanced efficiency by\
+      creating local mp4 files from 300+ hosted posters, resulting in a 10-fold acceleration of the process, saved over 30\
+      hours of generating time every week.",
+      "Practiced the DevOps methodology by containerising animated-poster Generators to Linux Virtual Machines, and\
+      visualising onto Google Cloud (GCP), automating upload process from Cloud into Dropbox using Bash script,\
+      resulted 95% reduction in instability issues and saved over 500 hours of local server production time annually.",
     ],
   },
   {
@@ -147,10 +158,13 @@ const experiences = [
     iconBg: "#383E56",
     date: "Mar 2018 - Dec 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Distinction Average (WAM: 82.7)",
+      "High distinction Achievements:",
+      "Data Structure and Algorithms: 89",
+      "Algorithms and Programming Techniques: 89",
+      "Database Systems: 88",
+      "Computer Networks and Applications: 94",
+      "Computer Science Project: 91",
     ],
   },
   {
@@ -160,10 +174,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Mar 2018 - Dec 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Honours Class 2 Division 1 (Distinction Average)",
     ],
   },
 ];
