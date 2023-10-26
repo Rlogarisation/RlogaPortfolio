@@ -2,7 +2,7 @@
   "name": "rlogaportfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://rlogarisation.github.io/RlogaPortfolio/",
+  "homepage": "https://rlogarisation.github.io/RlogaPortfolio",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
